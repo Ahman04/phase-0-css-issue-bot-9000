@@ -1,23 +1,23 @@
 body {
-  background pink;
+  background: pink; /* added colon after property */
 }
 
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* corrected "fontsize" to "font-size" */
 }
 
 h2 {
   color: green;
-  font-weight: normal
+  font-weight: normal; /* added missing semicolon */
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* changed from font-family (wrong) to font-size */
 }
 
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* corrected typing error : backgound → background */
   text-decoration: underline;
 }
